@@ -10,7 +10,7 @@ local autocmd = vim.api.nvim_create_autocmd
 autocmd('BufEnter', {
     group = oldmerkumGroup,
     callback = function()
-        vim.cmd.colorscheme("tokyonight-night")
+        vim.cmd.colorscheme("tokyonight")
     end
 })
 
